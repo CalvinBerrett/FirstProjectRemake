@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2237A1B1F97D3D700EDA72F /* MediaPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2237A1A1F97D3D700EDA72F /* MediaPageController.swift */; };
+		A27C0D721F95445100D9546C /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C0D711F95445100D9546C /* SecondController.swift */; };
+		A2AF79EC1F8FF87F002ECB0C /* SecondScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF79EB1F8FF87F002ECB0C /* SecondScreenController.swift */; };
+		A2AF79EF1F8FF997002ECB0C /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF79EE1F8FF997002ECB0C /* ColorTools.swift */; };
 		A2CF64FF1F8D3C3F001187EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF64FE1F8D3C3F001187EB /* AppDelegate.swift */; };
 		A2CF65011F8D3C3F001187EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF65001F8D3C3F001187EB /* ViewController.swift */; };
 		A2CF65041F8D3C3F001187EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CF65021F8D3C3F001187EB /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2237A1A1F97D3D700EDA72F /* MediaPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPageController.swift; sourceTree = "<group>"; };
+		A27C0D711F95445100D9546C /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		A2AF79EB1F8FF87F002ECB0C /* SecondScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenController.swift; sourceTree = "<group>"; };
+		A2AF79EE1F8FF997002ECB0C /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		A2CF64FB1F8D3C3F001187EB /* FirstProjectRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProjectRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CF64FE1F8D3C3F001187EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2CF65001F8D3C3F001187EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2AF79E71F8FF813002ECB0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF65001F8D3C3F001187EB /* ViewController.swift */,
+				A2CF64FE1F8D3C3F001187EB /* AppDelegate.swift */,
+				A2AF79EB1F8FF87F002ECB0C /* SecondScreenController.swift */,
+				A27C0D711F95445100D9546C /* SecondController.swift */,
+				A2237A1A1F97D3D700EDA72F /* MediaPageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2AF79E91F8FF82A002ECB0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF65021F8D3C3F001187EB /* Main.storyboard */,
+				A2CF65071F8D3C3F001187EB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2AF79EA1F8FF83B002ECB0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF65051F8D3C3F001187EB /* Assets.xcassets */,
+				A2CF650A1F8D3C3F001187EB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2AF79ED1F8FF988002ECB0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2AF79EE1F8FF997002ECB0C /* ColorTools.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A2CF64F21F8D3C3F001187EB = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +100,10 @@
 		A2CF64FD1F8D3C3F001187EB /* FirstProjectRemake */ = {
 			isa = PBXGroup;
 			children = (
-				A2CF64FE1F8D3C3F001187EB /* AppDelegate.swift */,
-				A2CF65001F8D3C3F001187EB /* ViewController.swift */,
-				A2CF65021F8D3C3F001187EB /* Main.storyboard */,
-				A2CF65051F8D3C3F001187EB /* Assets.xcassets */,
-				A2CF65071F8D3C3F001187EB /* LaunchScreen.storyboard */,
-				A2CF650A1F8D3C3F001187EB /* Info.plist */,
+				A2AF79ED1F8FF988002ECB0C /* Model */,
+				A2AF79E91F8FF82A002ECB0C /* View */,
+				A2AF79E71F8FF813002ECB0C /* Controller */,
+				A2AF79EA1F8FF83B002ECB0C /* Resources */,
 			);
 			path = FirstProjectRemake;
 			sourceTree = "<group>";
@@ -138,6 +182,10 @@
 			files = (
 				A2CF65011F8D3C3F001187EB /* ViewController.swift in Sources */,
 				A2CF64FF1F8D3C3F001187EB /* AppDelegate.swift in Sources */,
+				A27C0D721F95445100D9546C /* SecondController.swift in Sources */,
+				A2237A1B1F97D3D700EDA72F /* MediaPageController.swift in Sources */,
+				A2AF79EC1F8FF87F002ECB0C /* SecondScreenController.swift in Sources */,
+				A2AF79EF1F8FF997002ECB0C /* ColorTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FirstProjectRemake/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstProjectRemake/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Berrett--Calvin.FirstProjectRemake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +323,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FirstProjectRemake/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstProjectRemake/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Berrett--Calvin.FirstProjectRemake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +351,7 @@
 				A2CF650F1F8D3C3F001187EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
